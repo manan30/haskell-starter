@@ -1,6 +1,6 @@
 {-# OPTIONS -Wall -Wno-type-defaults #-}
 
-module Homework1 where
+module Problems1 where
 
 import           Test.HUnit
 
@@ -61,7 +61,7 @@ listUnzip ((x, y) : xys) = (x : xs, y : ys) where (xs, ys) = listUnzip xys
 {- ************************************************************ -}
 {- ************************************************************ -}
 
-homework1Tests :: Test
-homework1Tests = TestList [listIsEmptyTests, listLengthTests]
+problems1Tests :: Test
+problems1Tests = TestList [listIsEmptyTests, listLengthTests]
 
 

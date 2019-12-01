@@ -1,10 +1,10 @@
 module Main where
 
 import           Test.HUnit
-import           Homework1
+import           Problems1
 
 
 main :: IO ()
 main = do
-  _ <- runTestTT homework1Tests
+  _ <- runTestTT problems1Tests
   return ()
